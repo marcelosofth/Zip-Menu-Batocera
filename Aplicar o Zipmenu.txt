@@ -1,0 +1,23 @@
+Aplicar o ZipMenu ao Batocera:
+
+* No CMD do Batocera digitar:
+
+cd /userdata/system
+chmod +x zipmenu-hook.sh zipmenu-launch.sh zipmenu-joy.py
+
+echo '#!/bin/bash' > /userdata/system/custom.sh
+echo '/userdata/system/zipmenu-hook.sh' >> /userdata/system/custom.sh
+chmod +x /userdata/system/custom.sh
+
+bash /userdata/system/zipmenu-hook.sh
+
+chmod +x /userdata/system/zipmenu-joy.py
+ls -l /userdata/system/zipmenu-joy.py
+
+chmod +x /userdata/system/zipmenu-launch.sh
+/userdata/system/zipmenu-hook.sh
+
+sed -i 's/\r$//' /userdata/system/zipmenu-hook.sh
+chmod +x /userdata/system/zipmenu-hook.sh
+rm -f /userdata/system/zipmenu-boot.log
+bash /userdata/system/zipmenu-hook.sh; bash /userdata/system/zipmenu-hook.sh
