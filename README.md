@@ -1,1 +1,3 @@
-# Zip-Menu-Batocera
+Zip-Menu - Huge, fully functional collections on Batocera! ^_^
+
+Finally, you can have massive collections for every console organized into just a few fully functional .zip files within Batocera. No more dealing with thousands upon thousands of uncompressed files! You can organize your collections—for instance, alphabetically (123.zip, A.zip, B.zip, C.zip, etc.) or by categories like "Hacks.zip." When you launch a .zip file, the system will automatically trigger a menu if it detects multiple files inside. You can even customize this behavior using file extension filters, or enable/disable the "Zip-Menu" feature entirely—either globally or on a per-system basis!
