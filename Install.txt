@@ -4,6 +4,7 @@ Copy the files to /userdata/system/
 zipmenu-hook.sh
 zipmenu-joy.py
 zipmenu-launch.sh
+custom.sh
 
 * In the Batocera CMD, type:
 
